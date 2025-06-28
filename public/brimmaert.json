@@ -1,0 +1,269 @@
+[
+  
+      {
+        "id": 1,
+        "image": "https://i.ibb.co/FkyGTF9d/bag-12-219x280.jpg",
+        "productName": "Leather Travel Bag",
+        "brand": "UrbanCarry",
+        "category": "bags",
+        "available":50,
+        "minQty": 1,
+        "description": "Spacious and durable leather travel bag.",
+        "price": 120,
+        "rating": 4.5
+      },
+      {
+        "id": 2,
+        "image": "https://i.ibb.co/nqchW2V6/bag-9-219x280.jpg",
+        "productName": "Canvas Messenger Bag",
+        "brand": "NomadStyle",
+        "category": "bags",
+        "available":150,
+        "minQty": 10,
+        "description": "Stylish and lightweight canvas messenger bag.",
+        "price": 65,
+        "rating": 4.2
+      },
+      {
+        "id": 3,
+        "image": "https://i.ibb.co/FkyGTF9d/bag-12-219x280.jpg",
+        "productName": "Mini Backpack",
+        "brand": "EcoGear",
+        "category": "bags",
+        "available":50 ,
+        "minQty": 5,
+        "description": "Compact backpack for daily use.",
+        "price": 45,
+        "rating": 4.0
+      },
+ 
+ 
+      {
+        "id": 4,
+        "image": "https://i.ibb.co/LhkRYCvr/shoes13-1-219x280.jpg",
+        "productName": "Running Shoes",
+        "brand": "Speedster",
+        "category": "shoe",
+        "available":200,
+        "minQty": 10,
+        "description": "Lightweight running shoes with great grip.",
+        "price": 80,
+        "rating": 4.6
+      },
+      {
+        "id": 5,
+        "image": "https://i.ibb.co/Vc4gSv3X/shoe-1.jpg",
+        "productName": "Leather Formal Shoes",
+        "brand": "ClassicWalk",
+        "category": "shoe",
+        "available":60,
+        "minQty": 3,
+        "description": "Elegant leather shoes for formal occasions.",
+        "price": 100,
+        "rating": 4.3
+      },
+      {
+        "id": 6,
+        "image": "https://i.ibb.co/LhkRYCvr/shoes13-1-219x280.jpg",
+        "productName": "Sneakers",
+        "brand": "TrendyFeet",
+        "category": "shoe",
+        "available":200,
+        "minQty": 5,
+        "description": "Comfortable sneakers for casual wear.",
+        "price": 70,
+        "rating": 4.1
+      },
+ 
+
+      {
+        "id": 7,
+        "image": "https://i.ibb.co/Nn64c5kw/watches-5.jpg",
+        "productName": "Analog Watch",
+        "brand": "TimeMax",
+        "category": "watch",
+        "available":200,
+        "minQty": 5,
+        "description": "Elegant analog watch with leather strap.",
+        "price": 95,
+        "rating": 4.4
+      },
+      {
+        "id": 8,
+        "image": "https://i.ibb.co/rRMcG81T/watches-5-1.jpg",
+        "productName": "Digital Sports Watch",
+        "brand": "Sportify",
+        "category": "watch",
+        "available":100,
+        "minQty": 6,
+        "description": "Rugged sports watch with multiple functions.",
+        "price": 55,
+        "rating": 4.0
+      },
+      {
+        "id": 9,
+        "image": "https://i.ibb.co/Z6YcYzFK/s04.jpg",
+        "productName": "Smartwatch",
+        "brand": "TechTick",
+        "category": "watch",
+        "available":250,
+        "minQty": 50,
+        "description": "Smartwatch with health tracking features.",
+        "price": 130,
+        "rating": 4.7
+      },
+ 
+
+      {
+        "id": 10,
+        "image": "https://i.ibb.co/jP3jY4ns/cat-2.jpg",
+        "productName": "Wireless Headphone",
+        "brand": "SoundMate",
+        "category": "electronic",
+        "available":140,
+        "minQty": 10,
+        "description": "High quality sound with noise cancellation.",
+        "price": 60,
+        "rating": 4.3
+      },
+      {
+        "id": 11,
+        "image": "https://i.ibb.co/KjSyWr4V/02.jpg",
+        "productName": "Drone",
+        "brand": "BoomBox",
+        "category": "electronic",
+        "available":100,
+        "minQty": 8,
+        "description": "Portable drone with deep bass.",
+        "price": 85,
+        "rating": 4.5
+      },
+      {
+        "id": 12,
+        "image": "https://i.ibb.co/pryy2fyQ/101.jpg",
+        "productName": "Smartphone",
+        "brand": "GigaTech",
+        "category": "electronic",
+        "available":200,
+        "minQty": 10,
+        "description": "Latest-gen laptop with high-speed processor.",
+        "price": 399,
+        "rating": 4.8
+      },
+  
+ 
+   
+      {
+        "id": 13,
+        "image": "https://i.ibb.co/hRfT894q/women-3.jpg",
+        "productName": "Floral Dress",
+        "brand": "FemmeStyle",
+        "category": "women",
+        "available":200,
+        "minQty": 5,
+        "description": "Chic floral dress for casual wear.",
+        "price": 50,
+        "rating": 4.2
+      },
+      {
+        "id": 14,
+        "image": "https://i.ibb.co/jPS8Z2Mf/woman-1.jpg",
+        "productName": "Denim Jacket",
+        "brand": "BlueHue",
+        "category": "women",
+        "available":20,
+        "minQty": 1,
+        "description": "Trendy denim jacket with a snug fit.",
+        "price": 70,
+        "rating": 4.3
+      },
+      {
+        "id": 15,
+        "image": "https://i.ibb.co/C3vCxvQL/woman-3.jpg",
+        "productName": "Evening Gown",
+        "brand": "Elegance",
+        "category": "women",
+        "available":150,
+        "minQty": 10,
+        "description": "Elegant gown for formal events.",
+        "price": 150,
+        "rating": 4.6
+      },
+
+ 
+      {
+        "id": 16,
+        "image": "https://i.ibb.co/d4jmNPSr/background-image1.jpg",
+        "productName": "Cartoon T-Shirt",
+        "brand": "KiddoWear",
+        "category": "kids",
+         "available":50,
+        "minQty": 5,
+        "description": "Fun cartoon-printed T-shirt for boys and girls.",
+        "price": 20,
+        "rating": 4.1
+      },
+      {
+        "id": 17,
+        "image": "https://i.ibb.co/Q3kMdvmM/printed-summer-dress.jpg",
+        "productName": "Toy Car",
+        "brand": "PlayTime",
+        "category": "kids",
+        "available":150,
+        "minQty": 10,
+        "description": "Mini remote-controlled toy car.",
+        "price": 35,
+        "rating": 4.5
+      },
+      {
+        "id": 18,
+        "image": "",
+        "productName": "Video game ",
+        "brand": "EduPack",
+        "category": "kids",
+        "available":160,
+        "minQty": 10,
+        "description": "A playable video game here",
+        "price": 40,
+        "rating": 4.4
+      },
+ 
+      {
+        "id": 19,
+        "image": "https://i.ibb.co/zWZ5J90x/50-720x6609-600x600.jpg",
+        "productName": "Ocean Breeze",
+        "brand": "AromaLux",
+        "category": "perfume",
+        "available":180,
+        "minQty": 10,
+        "description": "Fresh aquatic scent with a hint of citrus.",
+        "price": 75,
+        "rating": 4.6
+      },
+      {
+        "id": 20,
+        "image": "https://i.ibb.co/MxfgzwqH/48-720x6603-270x270.jpg",
+        "productName": "Floral Fantasy",
+        "brand": "Miracle",
+        "category": "perfume",
+        "available":200,
+        "minQty": 10,
+        "description": "Elegant floral notes for daily wear.",
+        "price": 60,
+        "rating": 4.3
+      },
+      {
+        "id": 21,
+        "image": "https://i.ibb.co/BHt9KFP7/46-72.jpg",
+        "productName": "Midnight Musk",
+        "brand": "NoirBliss",
+        "category": "perfume",
+        "available":120,
+        "minQty": 8,
+        "description": "Sensual and deep musky fragrance.",
+        "price": 90,
+        "rating": 4.7
+      }
+    
+  
+]
