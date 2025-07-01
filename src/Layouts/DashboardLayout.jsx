@@ -1,12 +1,12 @@
 import React from 'react';
-import { NavLink, Outlet } from 'react-router';
+import { Link, NavLink, Outlet } from 'react-router';
 import Navbar from '../Components/Shared/Navbar';
 
 const DashboardLayout = () => {
     return (
        
         <div>
-          <Navbar></Navbar>
+         
           <div className="flex">
       <aside className="w-64 min-h-screen  p-4">
         <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
@@ -24,11 +24,15 @@ const DashboardLayout = () => {
       `btn btn-sm ${isActive ? 'btn-primary' : 'btn-outline'}`
       }>My Product</NavLink>
         </nav>
+         
       </aside>
+    
       <main className="flex-1 p-6">
         <Outlet />
       </main>
+      
         </div>
+         <Link className='btn btn-primary rounded-2xl' to='/'>Back to home</Link>
         </div>
     );
 };

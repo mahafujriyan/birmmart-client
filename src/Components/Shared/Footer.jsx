@@ -16,7 +16,7 @@ import { Link } from 'react-router';
 
 const Footer = () => {
   return (
-    <footer className=" mx-auto bg-gradient-to-r from-[#1A1A2E] via-[#142144] to-[#1b67c4] text-white py-10 px-5">
+    <footer className=" rounded-2xl bg-gradient-to-r from-[#1A1A2E] via-[#142144] to-[#1b67c4] text-white py-10 ">
       <div className=''>
 
      

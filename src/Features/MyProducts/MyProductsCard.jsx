@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router';
 const MyProductsCard = ({product}) => {
      const navigate=useNavigate()
     return (
-       <div className="w-11/12 mx-auto card bg-base-100 shadow-md p-4">
+       <div className="w-11/12 mx-auto card bg-base-100 border-2 border-orange-400 shadow-md p-4">
       <figure>
         <img src={product.image} alt={product.productName} className="h-40 object-cover" />
       </figure>

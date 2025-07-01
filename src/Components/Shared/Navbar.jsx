@@ -64,7 +64,7 @@ useEffect(()=>{
     </>
     return (
       
-          <div className="mx-1 md:mx-2 px-3  mt-2 rounded-xl sticky top-0 z-50 navbar bg-gradient-to-r from-[#7832e9] via-[#d272e6] to-[#cc78e6] shadow-sm">
+          <div className="px-3  mt-2 rounded-xl sticky top-0 z-50 navbar bg-gradient-to-r from-[#7832e9] via-[#d272e6] to-[#cc78e6] shadow-sm">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

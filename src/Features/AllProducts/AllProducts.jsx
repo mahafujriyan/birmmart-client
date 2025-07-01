@@ -12,6 +12,7 @@ const AllProducts = () => {
   const [view,setView]=useState('card') 
   const [sortOrder, setSortOrder] = useState('');
 
+const [visibleCount, setVisibleCount] = useState(8);
 
   const navigate = useNavigate();
     useEffect(() => {
@@ -86,37 +87,47 @@ const AllProducts = () => {
         <option value="desc">High to Low</option>
       </select>
 
-        
 
- 
-
-  
        
       </div>
-      {
-        view==='card'?(
-           <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
-       
-        {products.map(product => (
+      
+        {
+  view === 'card' ? (
+    <>
+      <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        {products.slice(0, visibleCount).map(product => (
           <div key={product._id} className="card bg-base-100 shadow-xl">
-            <figure className="h-48 ">
+            <figure className="h-48">
               <img src={product.image} alt={product.name} className="object-contain h-full" />
             </figure>
             <div className="card-body">
               <h3 className="text-xl font-bold">{product.name}</h3>
-              <p className="text-sm ">{product.description}</p>
+              <p className="text-sm">{product.description}</p>
               <p><strong>Brand:</strong> {product.brand}</p>
-             <p><strong>Min Qty:</strong> {product.minQty}</p>
-
+              <p><strong>Min Qty:</strong> {product.minQty}</p>
               <p><strong>Price:</strong> ${product.price}</p>
-            <Rating name="read-only" value={product.rating} readOnly precision={0.5} className='p-0 object-cover m-0' />
-              <Link  to={`/products/${product._id}`}className="btn btn-primary mt-1.5">See more</Link>
+              <Rating name="read-only" value={product.rating} readOnly precision={0.5} />
+              <Link to={`/products/${product._id}`} className="btn btn-primary mt-1.5">See more</Link>
             </div>
           </div>
         ))}
-
       </div>
-        ):
+
+      {/* Show More Button */}
+      {visibleCount < products.length && (
+        <div className="text-center mt-6">
+          <button
+            onClick={() => setVisibleCount(products.length)}
+            className="btn btn-outline btn-primary"
+          >
+            See More
+          </button>
+        </div>
+      )}
+    </>
+  )
+        
+       :
        (
         <div className='overflow-x-auto w-full'>
           <div className='min-w-[700px]'>
