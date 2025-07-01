@@ -11,6 +11,7 @@ import {
   FaInstagram,
   FaStore,
   FaCartPlus,
+  FaWhatsapp,
 } from 'react-icons/fa';
 import { Link } from 'react-router';
 
@@ -76,11 +77,14 @@ const Footer = () => {
           <p className="text-sm">📍 451 Wall Street, Dhaka, Bangladesh</p>
           <p className="text-sm">📞 (+880) 01889359904</p>
           <div className="flex space-x-3 mt-3 text-xl">
+          <Link to='https://www.facebook.com/share/19X5uHhg7K/'>
             <FaFacebookF />
-            <FaTwitter />
-            <FaEnvelope />
-            <FaPinterestP />
-            <FaLinkedinIn />
+          </Link>
+         <Link to='https://x.com/Mhriyan87'>   <FaTwitter /></Link>
+          <Link to='hossainmdmafuj17@gmail.com'>  <FaEnvelope /></Link>
+         
+            <Link to='https://www.linkedin.com/in/md-mahafuj-hossain-4ba36220a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><FaLinkedinIn /></Link>
+            <Link to='https://wa.me/qr/FYQC6EXQ33XED1'> <FaWhatsapp></FaWhatsapp> </Link>
           </div>
           <div className="flex space-x-2 mt-4 text-3xl">
             <FaCcVisa />
