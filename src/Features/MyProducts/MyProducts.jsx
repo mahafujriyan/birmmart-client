@@ -43,7 +43,7 @@ const MyProducts = () => {
             product.length === 0?(
               <p className="text-gray-500 text-center">No items add in your product list</p>
             ):(
-                <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-3 gap-5'>
+                <div className='  grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 my-3 gap-5'>
              {
                 product.map(data=><MyProductsCard  product={data} setProduct={setProduct} user={user} key={data._id}></MyProductsCard>)
             }

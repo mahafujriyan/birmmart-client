@@ -44,7 +44,7 @@ const navigate=useNavigate()
           <figure className="h-40 flex justify-center items-center">
             <motion.img
              src={item.image} alt={item} 
-             className="h-full w-full"
+             className="h-full w-11/12"
               whileHover={{ scale: 1.1, y: -5 }}
               transition={{ type: 'spring', stiffness: 300 }} />
           </figure>
