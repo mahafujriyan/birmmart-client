@@ -5,10 +5,10 @@ import Navbar from '../Components/Shared/Navbar';
 const DashboardLayout = () => {
     return (
        
-        <div>
+        <div >
          
           <div className="flex">
-      <aside className="w-64 min-h-screen  p-4">
+      <aside className=" bg-gradient-to-r from-[#2e2e4b] via-[#4560aa] to-[#1b67c4] w-64 min-h-screen  p-4">
         <h2 className="text-2xl font-bold mb-4">Dashboard</h2>
         <nav className="flex flex-col gap-2">
           <NavLink to="/dashboard" end   className={({ isActive }) =>
@@ -27,7 +27,8 @@ const DashboardLayout = () => {
          
       </aside>
     
-      <main className="flex-1 p-6">
+      <main className="bg-[#f4f7fc] dark:bg-[#0f172a]
+ flex-1 p-6">
         <Outlet />
       </main>
       

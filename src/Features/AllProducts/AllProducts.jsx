@@ -40,7 +40,7 @@ const [visibleCount, setVisibleCount] = useState(8);
     );
   }
     return (
-         <div className="p-6 bg-base-100">
+         <div className="p-6 ">
           <Helmet>
       <title>All Products | Brimmart</title>
       <meta name="description" content="Browse all wholesale products available on Brimmart, including electronics, fashion, gadgets, and more." />
@@ -98,7 +98,7 @@ const [visibleCount, setVisibleCount] = useState(8);
         {products.slice(0, visibleCount).map(product => (
           <div key={product._id} className="card bg-base-100 shadow-xl">
             <figure className="h-48">
-              <img src={product.image} alt={product.name} className="object-contain h-full" />
+              <img src={product.image} alt={product.name} className="object-contain h-full p-2" />
             </figure>
             <div className="card-body">
               <h3 className="text-xl font-bold">{product.name}</h3>
@@ -134,7 +134,7 @@ const [visibleCount, setVisibleCount] = useState(8);
             <table  className="min-w-full border-collapse rounded-2xl text-xs sm:text-sm md:text-base">
             <thead>
               <tr className="bg-gray-100 text-center  text-sm md:text-base">
-                <th className="border p-2">Image</th>
+                <th className="border p-2  ">Image</th>
                 <th className="border p-2">Name</th>
                 <th className="border p-2">Brand</th>
                 <th className="border p-2">Category</th>

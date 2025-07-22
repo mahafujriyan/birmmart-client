@@ -85,7 +85,7 @@ const CartItem = () => {
       ) : (
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {cartItems.map(item => (
-            <div key={item._id} className="card shadow-md p-4 rounded-xl 	bg-base-100">
+            <div key={item._id} className="card shadow-md p-4 rounded-xl  space-y-1.5	bg-base-100">
               <img src={item.
               productImage} alt={item.productName} className="w-[300px] h-[250px] object-cover rounded-3xl py-2" />
               <h3 className="text-lg font-semibold mt-2">{item.productName}</h3>
