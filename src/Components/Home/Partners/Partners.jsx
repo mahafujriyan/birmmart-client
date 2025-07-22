@@ -36,7 +36,7 @@ const Partners = () => {
             />
             <h3 className="text-lg text-primary font-semibold capitalize">{cat.category}</h3>
           </div>
-        ))}
+        ))}   
       </div>
 
       {selectedCategory && (
