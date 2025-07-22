@@ -48,8 +48,8 @@ const navigate=useNavigate()
               whileHover={{ scale: 1.1, y: -5 }}
               transition={{ type: 'spring', stiffness: 300 }} />
           </figure>
-          <div className=" btn bg-secondary card-body text-center">
-            <h2 className=" text-xl font-semibold">{item.category}</h2>
+          <div className=" btn bg-primary card-body text-center">
+            <button className=" text-xl font-semibold">{item.category}</button>
           </div>
         </div>
       ))}

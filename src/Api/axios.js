@@ -2,7 +2,7 @@ import axios from 'axios';
 import auth from '../Firebase/firebase.init';
 
 const api = axios.create({
-  baseURL: 'https://birmmart-server.vercel.app', 
+  baseURL: 'http://localhost:3000', 
   headers: {
     'Content-Type': 'application/json',
   },
