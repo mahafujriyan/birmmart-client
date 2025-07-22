@@ -6,7 +6,7 @@ import Footer from '../Components/Shared/Footer';
 
 const MainLayout = () => {
     return (
-        <div className=' bg-[#f4f7fc] dark:bg-[#0f172a]
+        <div className=' 
   min-h-screen flex flex-col  container mx-auto'>
            
             <div className="flex-grow  ">
