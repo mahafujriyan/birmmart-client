@@ -46,9 +46,9 @@ const router = createBrowserRouter([
             return res.json();
           },
 
-            element: <PrivateRoutes>
+            element: 
               <DetailsPages />
-            </PrivateRoutes>,
+        
           },
           {
             path:'/allProducts',
