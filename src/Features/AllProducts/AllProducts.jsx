@@ -133,7 +133,7 @@ const [visibleCount, setVisibleCount] = useState(8);
           <div className='min-w-[700px]'>
             <table  className="min-w-full border-collapse rounded-2xl text-xs sm:text-sm md:text-base">
             <thead>
-              <tr className="bg-gray-100 text-center  text-sm md:text-base">
+              <tr className=" text-center  text-sm md:text-base">
                 <th className="border p-2  ">Image</th>
                 <th className="border p-2">Name</th>
                 <th className="border p-2">Brand</th>
@@ -149,7 +149,7 @@ const [visibleCount, setVisibleCount] = useState(8);
             <tbody>
                
                 {products.map(product => (
-          <tr key={product._id}    className="hover:bg-gray-50 border-2 text-center text-xs sm:text-sm md:text-base">
+          <tr key={product._id}    className=" border-2 text-center text-xs sm:text-sm md:text-base">
             <td className='p-2'> <img src={product.image} alt={product.productName} className="h-[80px] w-[100px] sm:h-[120px] sm:w-[150px] object-cover rounded-xl mx-auto" /></td>
            
               <td className="text-xl font-bold">{product.productName}</td>
