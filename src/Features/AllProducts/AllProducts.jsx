@@ -45,7 +45,7 @@ const [visibleCount, setVisibleCount] = useState(8);
       <title>All Products | Brimmart</title>
       <meta name="description" content="Browse all wholesale products available on Brimmart, including electronics, fashion, gadgets, and more." />
     </Helmet>
-    {/* view toggle  */}
+    
     
 
           {/* card view  */}
