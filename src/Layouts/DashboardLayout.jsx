@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, NavLink, Outlet } from 'react-router';
 import Navbar from '../Components/Shared/Navbar';
+import { FaFastBackward } from 'react-icons/fa';
 
 const DashboardLayout = () => {
     return (
@@ -33,7 +34,7 @@ const DashboardLayout = () => {
       </main>
       
         </div>
-         <Link className='btn btn-primary rounded-2xl' to='/'>Back to home</Link>
+         <Link className='btn btn-primary rounded-2xl' to='/'><FaFastBackward /> Back to home</Link>
         </div>
     );
 };
