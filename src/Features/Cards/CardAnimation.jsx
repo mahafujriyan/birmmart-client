@@ -26,8 +26,8 @@ const CardAnimation = ({ images }) => {
         pagination={{ clickable: true }}
         modules={[Autoplay, Pagination]}
         breakpoints={{
-          640: { slidesPerView: 2 },
-          768: { slidesPerView: 1 },
+          640: { slidesPerView: 1 },
+          768: { slidesPerView: 2 },
           1024: { slidesPerView: 3 },
         }}
         className="px-4"
